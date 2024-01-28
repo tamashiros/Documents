@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="nav-flex">
+        <nav class="container-grid nav-flex__elements">
+            <div class="nev-flex__logo-senai">
+                <img src="./assets/images/SENAI_São_Paulo_logo.png" alt="Logo SENAI">
+            </div>
+            <div class="nav-flex__links">
+                <ul class="nav-flex__links-list">
+                    <li>
+                        <a href="index.html"> Home</a>
+                    </li>
+                    <li>
+                        <a href="#main"> Conteúdo </a>
+                    </li>
+                    <li>
+                        <a href="#footer">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="main">
+        <div>
+            <h2>
+                Seja bem vindo!
+            </h2>
+        </div>
+
+        <section class="container-grid">
+
+            <section class="main-flex">
+                <div class="main-flex__form">
+                    <h2>
+                        Cadastro de Série
+                    </h2>
+                    <form action="" class="main-flex__form-element">
+                        <div class="main-flex__inputs">
+                            <label for=""> Informe o nome da série:</label>
+                            <input type="text" placeholder="Ex: House Of The Dragon">
+                        </div>
+                        <div class="main-flex__inputs">
+                            <label for="">Informe a quantidade de temporadas:</label>
+                            <input type="number" placeholder="Ex: 10">
+                        </div>
+                        <div class="main-flex__inputs">
+                            <label for="">Informe o nome do estudio:</label>
+                            <input type="text" placeholder="Ex: Hbo Max">
+                        </div>
+                        <div class="main-flex__inputs">
+                            <label for="">Informe o ano do lançamento:</label>
+                            <input type="number" placeholder="Ex: 2012">
+                        </div>
+
+                        <div class="main-flex__button">
+                            <button type="submit">
+                                Cadastrar
+                            </button>
+
+                            <button>
+                                Cancelar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <section class="main-flex-listagem">
+                <div class="main-flex-listagem__flex" >
+                    <h2>
+                        Lista de Séries
+                    </h2>
+
+                    <table class="main-flex-listagem__flex-table">
+                        <thead>
+                            <tr>
+                                <th>Nome Série</th>
+                                <th>Num Temporadas</th>
+                                <th>Ano Lançamento</th>
+                                <th>Produtora</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Super Shock</td>
+                                <td>19</td>
+                                <td>2007</td>
+                                <td>TV Globinho</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </section>
+
+    </main>
+    <footer id="footer">
+
+    </footer>
+</body>
+
+</html>
